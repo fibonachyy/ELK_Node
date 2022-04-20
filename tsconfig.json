@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "Controllers": ["src/Controllers"],
+            "Config": ["src/Config"],
+            "Validators": ["src/Validators"],
+            "Routes": ["src/Routes"],
+            "Utils": ["src/Utils"],
+            "Models": ["src/Models"]
+        },
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
